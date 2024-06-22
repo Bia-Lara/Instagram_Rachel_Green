@@ -1,0 +1,615 @@
+@import url('https://fonts.cdnfonts.com/css/sedgwick-ave');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 17% 83% ;
+}
+
+
+.menu{
+    float: left;
+    background-color: white;
+    border-right: 1px solid #dbdbdb;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    
+                                               
+}
+
+.menu h3{
+    font-family: 'Sedgwick Ave', sans-serif;
+    padding-top:45px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.menu ul{
+    margin-top: 35px;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.menu ul li:hover{
+    background-color: #e4e6ebd9;
+}
+
+.menu ul li:hover img, .storys ul li:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#img_menu{
+    border-radius: 50%;
+}
+
+.menu .bar{
+    display: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.info{
+    background-image: url('imgs/fundo3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100%;
+    padding: 30px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.foto{
+    background-color: rgba(255, 255, 255, 0.877);
+    padding: 3%;
+    
+}
+
+.foto .img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    
+}
+
+.foto .buttons{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.foto .buttons button{
+    border: none;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: 18px;
+   
+}
+
+.foto .buttons .seguir{
+    background-color: #028dea;
+    color: white;
+    
+}
+
+.foto .buttons .seguir:hover{
+    background-color: #0a78c2;
+    transition: 0.5s;
+    
+}
+
+.foto .buttons .mensagem{
+    background-color: #d9d7d7;
+}
+
+.foto .buttons .amizade{
+    background-color: #d9d7d7;
+}
+
+.foto .buttons .btn:hover{
+    background-color: #bebbbb;
+    transition: 0.5s;
+}
+
+.foto .buttons .amizade img{
+    width: 15px;
+    height: 15px;
+}
+
+.info_pessoais{
+    margin-left: 50px;
+    background-color: rgba(255, 255, 255, 0.877);
+    padding: 50px;
+    padding-top: 20px;
+    
+}
+
+.info_pessoais .dados{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.info_pessoais .dados div{
+    padding: 20px;
+}
+.info_pessoais .dados p{
+    font-size: 1.5rem;
+}
+
+.info_pessoais .dados span{
+    font-weight: 600;
+}
+
+.info_pessoais #nome p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.info_pessoais .informacoes{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+
+.info_pessoais .informacoes ul li{
+    list-style: none;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.info_pessoais .informacoes ul li img{
+    width: 25px;
+    height: 25px;
+}
+
+.info_pessoais .informacoes ul li .info-img{
+    width: 30px;
+    height: 30px;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+.destaques{
+    margin: 10px;
+    padding: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.destaques ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.destaques ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+.destaques ul li img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.destaques ul li .emoji{
+    width: 14px;
+    height: 14px;
+}
+
+.destaques ul li div{
+    text-align: center;
+}
+
+.destaques .div-img-destaque{
+    border-color: 5px solid black;
+    
+}
+
+.fotos{
+    
+    width: 85%;
+    height: 100%;
+    padding: 20px;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+
+#hr-fotos{
+    margin-top: 0px;
+    
+}
+
+.fotos ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.fotos ul li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-size: 12px;
+    font-weight: 600;
+   
+    
+}
+
+.fotos ul li button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    color: #bebbbb;
+}
+
+.fotos ul li .taps{
+    color: #000000;
+}
+
+.fotos ul li .taps:hover{
+    background-color: #f7f4f4;
+}
+
+
+.fotos .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: (3,1fr);
+    gap: 6px;
+    margin-top: 20px;
+    
+}
+
+.fotos .galeria .foto{
+    width: 309px;
+    height: 309px;
+    background-size: cover;
+    background-position: 50%;
+    cursor: pointer;
+    
+}
+
+#ft1{
+    background-image: url(imgs/ft6.jpg);
+    
+    
+    
+}
+
+#ft2{
+    background-image: url(imgs/ft7.jpg);
+    
+}
+
+#ft3{
+    background-image: url(imgs/ft8.jpg);
+    
+}
+
+#ft4{
+    background-image: url(imgs/ft9.jpg);
+    
+}
+
+#ft5{
+    background-image: url(imgs/ft10.jpg);
+    
+}
+
+#ft6{
+    background-image: url(imgs/ft11.gif);
+    
+}
+
+
+.table-div{
+    width: 90%;
+    padding: 20px;
+    float: right;
+}
+
+.table-div table{
+    width: 90%;
+    padding: 0px;
+    text-align: center;
+    border-spacing: 0;
+    border-collapse: collapse;
+   
+    
+    
+    
+}
+.table-div table thead{
+    border-top: 1px solid rgb(147, 146, 146);
+    
+}
+
+.table-div table thead th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table-div table thead th img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.table-div table tbody td{
+    padding: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(147, 146, 146);
+    border-bottom: 1px solid rgb(147, 146, 146);
+}
+
+.button-ativo{
+    color: #000000;
+    background-color: #000000;
+}
+
+
+.conteudo{
+    display: none;
+}
+
+
+/*Page Home*/
+
+.colDireita{
+    justify-content: center;
+}
+
+.storys{
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.storys ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+
+
+.storys ul li{
+    padding: 2px;
+    margin-right: 50px;
+    border: 3px solid transparent;
+    background: linear-gradient(#ffffff, #ffffff)  padding-box, 
+    radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) border-box;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.storys ul li img{
+    margin: 0px 2px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+
+
+
+
+@media screen and (max-width:1436px){
+
+    .container{
+        grid-template-columns: 100px 90% ;
+    }
+    .menu{
+     
+        padding-left: 30px;
+        padding-right: 10px;
+        
+        height: 100%;
+                                                   
+    }
+
+    .menu h3{
+        display: none;
+    }
+
+    .menu .bar{
+        display: block;
+        width: 70px;
+        padding-top: 30px;
+        padding-left: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .menu .bar:hover i{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+       
+    }
+
+    .menu ul li:hover{
+        background-color: white;
+    }
+
+    .menu ul li p{
+        display: none;
+    }
+
+    .info{
+        justify-content: center;
+        padding-right: 50px;
+    }
+    
+    .foto{
+        background-color: rgba(255, 255, 255, 0.877);
+        padding: 5%;
+    }
+
+    .info_pessoais{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .destaques{
+        justify-content: center;
+        
+    }
+
+    .destaques ul li img{
+        width: 90px;
+        height: 90px;
+       
+    }
+
+
+    .table-div table thead th img{
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    .table-div table tbody td{
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    
+        
+}
+
+@media screen and (max-width:792px){
+
+    .foto .img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .foto .buttons button{
+        font-size: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+
+    .fotos .galeria .foto{
+        width: 209px;
+        height: 209px;
+      
+        
+    }
+
+    /*---------------------------------------------------------------*/
+    .info_pessoais{
+        padding: 30px;
+        padding-top: 15px;
+        
+    }
+    
+    .info_pessoais .dados p{
+        font-size: 1.1rem;
+    }
+    
+    .info_pessoais #nome p{
+        font-size: 1.1rem;
+    }
+    
+    
+    .info_pessoais .informacoes{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+    }
+    
+    .info_pessoais .informacoes ul li{
+        list-style: none;
+        padding: 12px;
+        font-size: 12px;
+    }
+    
+    .info_pessoais .informacoes ul li img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .info_pessoais .informacoes ul li .info-img{
+        width: 20px;
+        height: 20px;
+    }
+
+    /*---------------------------------------------------------------*/
+    .destaques ul li img{
+        width: 80px;
+        height: 80px;
+       
+    }
+
+    .table-div table thead th{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .table-div table thead th img{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    .table-div table tbody td{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding: 20px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel Green</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/30068f62f9.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="imgs/icon.jpg">
+</head>
+<body>
+    
+   <div class="container">
+    <div class="menu">
+        <h3>F <span style="color: red;">.</span> R <span style="color: rgb(0, 157, 255);">.</span> I <span style="color: yellow;">.</span> E <span style="color: red;">.</span> N <span style="color: yellow;">.</span> D <span style="color: rgb(0, 157, 255);">.</span> S</h3>
+        <span class="bar"><i class="fa-solid fa-bars fa-lg"></i></span>
+
+        <ul>
+            <a href="home.html">
+                <li><img src="imgs/home.svg" alt=""><p>&nbsp;&nbsp;&nbsp;Página inicial</p></li>
+            </a>
+            <li><img src="imgs/pesquisa.svg" alt=""><p>&nbsp;&nbsp;&nbsp;Pesquisa </p></li>
+            <li><img src="imgs/explorar.svg" alt=""><p>&nbsp;&nbsp;&nbsp;Explorar </p></li>
+            <li><img src="imgs/reels.svg" alt=""><p>&nbsp;&nbsp;&nbsp;Reels </p></li>
+            <li><img src="imgs/mensagem.svg" alt=""><p>&nbsp;&nbsp;&nbsp;Mensagem </p></li>
+            <li><img src="imgs/curtida.svg" alt=""><p>&nbsp;&nbsp;&nbsp;Notificações </p></li>
+            <li><img src="imgs/criar.svg" alt=""><p>&nbsp;&nbsp;&nbsp;criar</p></li>
+            <a href="perfil.html">
+                <li>
+                    <img id="img_menu" src="imgs/perfil.jpg" alt=""  width="30px" height="30px">
+                    <div style="padding-top: 5px;">
+                        <p>&nbsp;&nbsp;Perfil</p>
+                    </div>
+                    
+                </li>
+            </a>
+            
+        </ul>
+    </div>
+        
+            
+    <div class="colDireita">
+        <center>
+            <div class="info">
+                <div class="foto">
+                    <img class="img" src="imgs/perfil.jpg" alt="">
+                    <div class="buttons">
+                        <div>
+                            <button class="seguir">Seguir</button>
+                        </div>
+
+                        <div>
+                            <button class="mensagem btn">Enviar Mensagem</button>
+                        </div>
+
+                        <div>
+                            <button class="amizade btn"><img src="imgs/amizade.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info_pessoais">
+
+                    <div class="dados">
+                        <div class="publicacoes">
+                            <p> <span>133</span> publicações</p>
+                        </div>
+
+                        <div class="seguidores">
+                            <p> <span>42.9M</span> seguidores</p>
+                        </div>
+
+                        <div class="seguindo">
+                            <p> <span>5</span> seguindo</p>
+                        </div>
+                    </div>
+
+
+                    <div id="nome">
+                        <p>Rachel Green <img src="imgs/certificado.svg" alt=""></p>
+                    </div>
+
+                    
+                    <hr>
+                    <div class="informacoes">
+                        
+                        <div>
+                            <ul>
+                                <li><img src="imgs/aniversario.png" alt="">&nbsp;&nbsp;05/03/1969</li>
+                                <li><img src="imgs/star.png" alt="">&nbsp;&nbsp;30 Years</li>
+                                <li><img src="imgs/pin.png" alt="">&nbsp;&nbsp;Sherman Oaks, Califórnia</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li><img  class="info-img" src="imgs/cafe.png" alt="" >&nbsp;&nbsp;Central Perk</li>
+                                <li><img class="info-img" src="imgs/casa.png" alt="" >&nbsp;&nbsp;Greenwich Village - NY</li>
+                                <li><img src="imgs/telefone.png" alt="">&nbsp;&nbsp;+1</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        
+        
+        <center>
+            <div class="destaques">
+                <ul>
+                    <li>
+                        <div class="div-img-destaque"><img src="imgs/ft1l.jpg" alt=""></div>
+                        <div><p>Me <img class="emoji" src="imgs/coracao.png" alt=""></p></div>
+                    </li>
+
+                    <li>
+                        <div class="div-img-destaque"><img src="imgs/ft2.jpg" alt=""></div>
+                        <div><p>F.R.I.E.N.D.S</p></div>
+                    </li>
+
+                    <li>
+                        <div class="div-img-destaque"><img src="imgs/ft3.jpg" alt=""></div>
+                        <div><p>Party <img class="emoji" src="imgs/festa.png" alt=""></p> </div>
+                    </li>
+
+                    <li>
+                        <div class="div-img-destaque"><img src="imgs/ft4.jpeg" alt=""></div>
+                        <div><p>We</p></div>
+                    </li>
+
+                    <li>
+                        <div class="div-img-destaque"><img src="imgs/ft5.jpg" alt=""></div>
+                        <div>
+                            <p>Emma <img class="emoji" src="imgs/coracao.png" alt=""></p>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </center>
+        <div class="fotos">
+            <center>
+                <hr id="hr-fotos" color: #737373>
+                <div class="secoes">
+                    <ul>
+                        <li>
+                            <button id="tap-padrao" class="publicacoes taps" onclick="abrirAba('publicacoes taps', 'foto')">
+                                <img src="imgs/publicacoes.svg" alt=""> 
+                                <span>PUBLICAÇÕES</span>
+                            </button>
+                            
+                        </li>
+
+                        <li>
+                            <button class="salvos taps" onclick="abrirAba('salvos taps', 'table-div')">
+                                <img src="imgs/salvos.svg" alt=""> 
+                                <span>TABELA</span>
+                            </button>
+                            
+                        </li>
+
+                        <li>
+                            <button>
+                                <img src="imgs/marcados.svg" alt=""> 
+                                <span>MARCADOS</span>
+                            </button>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </center>
+
+            <div class="galeria">
+                <div  class="foto conteudo" id="ft1"></div>
+
+                <div  class="foto conteudo" id="ft2"></div>
+
+                <div  class="foto conteudo" id="ft3"></div>
+
+                <div  class="foto conteudo" id="ft4"></div>
+
+                <div  class="foto conteudo" id="ft5"></div>
+
+                <div  class="foto conteudo" id="ft6"></div>
+            </div>
+            
+            </div>
+
+            <center>
+                <div class="table-div conteudo">
+                    <table class="table-div">
+                        <thead>
+                            <th><img src="imgs/nome.png" alt="Nome"></th>
+                            <th><img src="imgs/idade.png" alt="Idade"></th>
+                            <th><img src="imgs/niver.png" alt="Data de Nascimento"></th>
+                            <th><img src="imgs/local.png" alt="Local de Nascimento"></th>
+                            <th><img src="imgs/casa2.png" alt="Endereço"></th>
+                            <th><img src="imgs/amorosa.png" alt="Personalidade"></th>
+                            <th><img src="imgs/moda.png" alt=""></th>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Rachel Green</td>
+                                <td>30 Anos</td>
+                                <td>05/03/1969</td>
+                                <td>Sherman Oaks, Califórnia</td>
+                                <td>Greenwich Village - NY</td>
+                                <td>Calorosa e Simpática</td>
+                                <td>Moda</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+            </center>
+            
+            </div>
+
+    </div>
+    
+   </div>
+        
+
+    <script>
+
+        document.getElementById('tap-padrao').click();
+
+        function abrirAba(botao, classAba){
+            var conteudos= document.getElementsByClassName('conteudo');
+            
+
+            for(var i=0; i<conteudos.length;i++){
+                conteudos[i].style.display='none';
+                
+            }
+
+            var secao = document.getElementsByClassName(classAba);
+
+            if (secao.length>1){
+                for(var i=0; i< secao.length;i++){
+                    secao[i].style.display='block';
+                }
+            }
+
+            
+        }
+    </script>
+
+</body>
+</html>
